@@ -1,0 +1,192 @@
+{
+    "paths": {
+        "/movies": {
+            "get": {
+                "summary": "returns all movies",
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content-type": "application/json",
+                        "type": "array",
+                        "items": {
+                            "id": "integer",
+                            "movieTitle": "string",
+                            "yearOfRelease": "integer",
+                            "director": "string",
+                            "cast": {
+                                "type": "array",
+                                "items": {
+                                    "actorName": "string",
+                                    "onScreenName": "string"
+                                }
+                            },
+                            "rating": "integer",
+                            "genre": "string",
+                            "isOnOtt": "boolean",
+                            "Ott": "string"
+                        }
+                    },
+                    "404": {
+                        "description": "resource not found",
+                        "content": {}
+                    }
+                }
+            },
+            "post": {
+                "summary": "add movies",
+                "requestBody": {
+                    "content-type": "application/json",
+                    "type": {
+                        "id": "integer",
+                        "movieTitle": "string",
+                        "yearOfRelease": "integer",
+                        "director": "string",
+                        "cast": {
+                            "type": "array",
+                            "items": {
+                                "actorName": "string",
+                                "onScreenName": "string"
+                            }
+                        },
+                        "rating": "integer",
+                        "genre": "string",
+                        "isOnOtt": "boolean",
+                        "Ott": "string"
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "successful operation",
+                        "content-type": "application/json",
+                        "type": "object",
+                        "items": {
+                            "id": "integer",
+                            "movieTitle": "string",
+                            "yearOfRelease": "integer",
+                            "director": "string",
+                            "cast": {
+                                "type": "array",
+                                "items": {
+                                    "actorName": "string",
+                                    "onScreenName": "string"
+                                }
+                            },
+                            "rating": "integer",
+                            "genre": "string",
+                            "isOnOtt": "boolean",
+                            "Ott": "string"
+                        }
+                    },
+                    "404": {
+                        "description": "resource not found",
+                        "content": {}
+                    }
+                }
+            }
+        },
+        "/movies/{id}": {
+            "get": {
+                "summary": "return movies by id",
+                "parameter": {
+                    "id": {
+                        "description": "id of movies to fetch specific movie details",
+                        "type": "integer",
+                        "required": false
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content-type": "application/json",
+                        "type": "object ",
+                        "items": {
+                            "id": "integer",
+                            "movieTitle": "string",
+                            "yearOfRelease": "integer",
+                            "director": "string",
+                            "cast": {
+                                "type": "array",
+                                "items": {
+                                    "actorName": "string",
+                                    "onScreenName": "string"
+                                }
+                            },
+                            "rating": "integer",
+                            "genre": "string",
+                            "isOnOtt": "boolean",
+                            "Ott": "string"
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid id supplied",
+                        "content": {}
+                    },
+                    "404": {
+                        "description": "resource not found",
+                        "content": {}
+                    }
+                },
+                "put": {
+                    "summary": "update movies by id",
+                    "parameter": {
+                        "id": {
+                            "description": "id of movies to return",
+                            "type": "integer",
+                            "required": false
+                        }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "successful operation",
+                            "content-type": "application/json",
+                            "type": "object",
+                            "items": {
+                                "id": "integer",
+                                "movieTitle": "string",
+                                "yearOfRelease": "integer",
+                                "director": "string",
+                                "cast": "array",
+                                "rating": "integer",
+                                "genre": "string",
+                                "isOnOtt": "boolean",
+                                "Ott": "string"
+                            }
+                        },
+                        "400": {
+                            "description": "Invalid id supplied",
+                            "content": {}
+                        },
+                        "404": {
+                            "description": "resource not found",
+                            "content": {}
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "summary": "deletes movies by id",
+                "parameter": {
+                    "id": {
+                        "description": "id of movies to delete",
+                        "type": "integer",
+                        "required": false
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content": {}
+                    },
+                    "400": {
+                        "description": "Invalid id supplied",
+                        "content": {}
+                    },
+                    "404": {
+                        "description": "resource not found",
+                        "content": {}
+                    }
+                }
+            }
+        }
+    }
+}
