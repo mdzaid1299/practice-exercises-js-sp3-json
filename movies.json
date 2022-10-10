@@ -1,271 +1,271 @@
 {
-    "movies": [
+  "movies": [
+    {
+      "id": 501,
+      "movieTitle": "Top Gun: Maverick",
+      "yearOfRelease": 2022,
+      "director": "Joseph Kosinski",
+      "cast": [
         {
-            "id": 501,
-            "movieTitle": "Top Gun: Maverick",
-            "yearOfRelease": 2022,
-            "director": "Joseph Kosinski",
-            "cast": [
-                {
-                    "actorName": "Tom Cruise",
-                    "onScreenName": "Capt. Pete"
-                },
-                {
-                    "actorName": "Jennifer Connelly",
-                    "onScreenName": "Penny Benjamin"
-                },
-                {
-                    "actorName": "Miles Teller",
-                    "onScreenName": "Lt. Bradley"
-                }
-            ],
-            "rating": 8.6,
-            "genre": "Action",
-            "isOnOTT": false
+          "actorName": "Tom Cruise",
+          "onScreenName": "Capt. Pete"
         },
         {
-            "id": 502,
-            "movieTitle": "Spider-Man: No Way Home",
-            "yearOfRelease": 2021,
-            "director": "Jon Watts",
-            "cast": [
-                {
-                    "actorName": "Tom Holland",
-                    "onScreenName": "Peter Parker"
-                },
-                {
-                    "actorName": "Zendaya",
-                    "onScreenName": "MJ"
-                }
-            ],
-            "rating": 8.3,
-            "genre": "Action",
-            "isOnOTT": true,
-            "Ott": "Netflix"
+          "actorName": "Jennifer Connelly",
+          "onScreenName": "Penny Benjamin"
         },
         {
-            "id": 503,
-            "movieTitle": "Death on the Nile",
-            "yearOfRelease": 2022,
-            "director": "Kenneth Branagh",
-            "cast": [
-                {
-                    "actorName": "Tom Bateman",
-                    "onScreenName": "Bouc"
-                },
-                {
-                    "actorName": "Annette Bening",
-                    "onScreenName": "Euphemia Bouc"
-                },
-                {
-                    "actorName": "Kenneth Branagh",
-                    "onScreenName": "Hercule Poirot"
-                }
-            ],
-            "rating": 6.3,
-            "genre": "Mystery",
-            "isOnOtt": false,
-            "Ott": null
-        },
-        {
-            "id": 504,
-            "movieTitle": "Jurassic World",
-            "yearOfRelease": 2015,
-            "director": "Colin Trevorrow",
-            "cast": [
-                {
-                    "actorName": "Chris Pratt",
-                    "onScreenName": "Owen Grady"
-                },
-                {
-                    "actorName": "Bryce Dallas Howard",
-                    "onScreenName": "Claire Dearing"
-                }
-            ],
-            "rating": 6.9,
-            "genre": "Sci-Fi",
-            "isOnOtt": true,
-            "Ott": "Prime Video"
-        },
-        {
-            "id": 505,
-            "movieTitle": "Doctor Strange",
-            "yearOfRelease": 2016,
-            "director": "Scott Derrickson",
-            "cast": [
-                {
-                    "actorName": "Benedict Cumberbatch",
-                    "onScreenName": "Dr. Stephen Strange"
-                },
-                {
-                    "actorName": "Chiwetel Ejiofor",
-                    "onScreenName": "Mordo"
-                },
-                {
-                    "actorName": "Rachel McAdams",
-                    "onScreenName": "Dr. Christine Palmer"
-                }
-            ],
-            "rating": 7.5,
-            "genre": "Fantasy",
-            "isOnOtt": true,
-            "Ott": "Hotstar"
-        },
-        {
-            "id": 506,
-            "movieTitle": "Whiplash",
-            "yearOfRelease": 2014,
-            "director": "Damien Chazelle",
-            "cast": [
-                {
-                    "actorName": "Miles Teller",
-                    "onScreenName": "Andrew"
-                },
-                {
-                    "actorName": "J.K. Simmons",
-                    "onScreenName": "Fletcher"
-                },
-                {
-                    "actorName": "Melissa Benoist",
-                    "onScreenName": "Nicole"
-                }
-            ],
-            "rating": 8.5,
-            "genre": "Drama",
-            "isOnOtt": true,
-            "Ott": "Prime Video"
-        },
-        {
-            "id": 507,
-            "movieTitle": "The Wolf of Wall Street",
-            "yearOfRelease": 2013,
-            "director": "Martin Scorsese",
-            "cast": [
-                {
-                    "actorName": "Leonardo DiCaprio",
-                    "onScreenName": "Jordan Belfort"
-                },
-                {
-                    "actorName": "Jonah Hill",
-                    "onScreenName": "Donnie Azoff"
-                },
-                {
-                    "actorName": "Margot Robbie",
-                    "onScreenName": "Naomi Lapaglia"
-                }
-            ],
-            "rating": 8.2,
-            "genre": "Biography",
-            "isOnOtt": true,
-            "Ott": "Prime Video"
-        },
-        {
-            "id": 508,
-            "movieTitle": "The Wolf of Wall Street",
-            "yearOfRelease": 2013,
-            "director": "Martin Scorsese",
-            "cast": [
-                {
-                    "actorName": "Leonardo DiCaprio",
-                    "onScreenName": "Jordan Belfort"
-                },
-                {
-                    "actorName": "Jonah Hill",
-                    "onScreenName": "Donnie Azoff"
-                },
-                {
-                    "actorName": "Margot Robbie",
-                    "onScreenName": "Naomi Lapaglia"
-                }
-            ],
-            "rating": 8.2,
-            "genre": "Biography",
-            "isOnOtt": true,
-            "Ott": "Prime Video"
-        },
-        {
-            "id": 509,
-            "movieTitle": "The Lost City",
-            "yearOfRelease": 2022,
-            "director": "Aaron Nee",
-            "cast": [
-                {
-                    "actorName": "Sandra Bullock",
-                    "onScreenName": "Loretta Sage, Angela"
-                },
-                {
-                    "actorName": "Channing Tatum",
-                    "onScreenName": "Alan, Dash"
-                },
-                {
-                    "actorName": "Daniel Radcliffe",
-                    "onScreenName": "Abigail Fairfax"
-                }
-            ],
-            "rating": 6.2,
-            "genre": "Comedy",
-            "isOnOtt": true,
-            "Ott": "Prime Video"
-        },
-        {
-            "id": 510,
-            "movieTitle": "365 Days",
-            "yearOfRelease": 2020,
-            "director": "Barbara Bialowas",
-            "cast": [
-                {
-                    "actorName": "Anna-Maria Sieklucka",
-                    "onScreenName": "Laura Biel"
-                },
-                {
-                    "actorName": "Michele Morrone",
-                    "onScreenName": "Massimo Torricelli"
-                }
-            ],
-            "rating": 3.3,
-            "genre": "Romance",
-            "isOnOtt": true,
-            "Ott": "Netflix"
-        },
-        {
-            "id": 511,
-            "movieTitle": "Titanic",
-            "yearOfRelease": 1997,
-            "director": "James Cameron",
-            "cast": [
-                {
-                    "actorName": "Leonardo DiCaprio",
-                    "onScreenName": "Jack Dawson"
-                },
-                {
-                    "actorName": "Kate Winslet",
-                    "onScreenName": "Rose Dewitt Bukater"
-                }
-            ],
-            "rating": 7.9,
-            "genre": "Romance",
-            "isOnOtt": true,
-            "Ott": "Hotstar"
-        },
-        {
-            "id": 512,
-            "movieTitle": "Ghostbusters: Afterlife",
-            "yearOfRelease": 2021,
-            "director": "Jason Reitman",
-            "cast": [
-                {
-                    "actorName": "Carrie Coon",
-                    "onScreenName": "Callie"
-                },
-                {
-                    "actorName": "Paul Rudd",
-                    "onScreenName": "Grooberson"
-                }
-            ],
-            "rating": 7.1,
-            "genre": "Adventure",
-            "isOnOtt": true,
-            "Ott": "Netflix"
+          "actorName": "Miles Teller",
+          "onScreenName": "Lt. Bradley"
         }
-    ]
+      ],
+      "rating": 8.6,
+      "genre": "Action",
+      "isOnOTT": false
+    },
+    {
+      "id": 502,
+      "movieTitle": "Spider-Man: No Way Home",
+      "yearOfRelease": 2021,
+      "director": "Jon Watts",
+      "cast": [
+        {
+          "actorName": "Tom Holland",
+          "onScreenName": "Peter Parker"
+        },
+        {
+          "actorName": "Zendaya",
+          "onScreenName": "MJ"
+        }
+      ],
+      "rating": 8.3,
+      "genre": "Action",
+      "isOnOTT": true,
+      "Ott": "Netflix"
+    },
+    {
+      "id": 503,
+      "movieTitle": "Death on the Nile",
+      "yearOfRelease": 2022,
+      "director": "Kenneth Branagh",
+      "cast": [
+        {
+          "actorName": "Tom Bateman",
+          "onScreenName": "Bouc"
+        },
+        {
+          "actorName": "Annette Bening",
+          "onScreenName": "Euphemia Bouc"
+        },
+        {
+          "actorName": "Kenneth Branagh",
+          "onScreenName": "Hercule Poirot"
+        }
+      ],
+      "rating": 6.3,
+      "genre": "Mystery",
+      "isOnOtt": false,
+      "Ott": null
+    },
+    {
+      "id": 504,
+      "movieTitle": "Jurassic World",
+      "yearOfRelease": 2015,
+      "director": "Colin Trevorrow",
+      "cast": [
+        {
+          "actorName": "Chris Pratt",
+          "onScreenName": "Owen Grady"
+        },
+        {
+          "actorName": "Bryce Dallas Howard",
+          "onScreenName": "Claire Dearing"
+        }
+      ],
+      "rating": 6.9,
+      "genre": "Sci-Fi",
+      "isOnOtt": true,
+      "Ott": "Prime Video"
+    },
+    {
+      "id": 505,
+      "movieTitle": "Doctor Strange",
+      "yearOfRelease": 2016,
+      "director": "Scott Derrickson",
+      "cast": [
+        {
+          "actorName": "Benedict Cumberbatch",
+          "onScreenName": "Dr. Stephen Strange"
+        },
+        {
+          "actorName": "Chiwetel Ejiofor",
+          "onScreenName": "Mordo"
+        },
+        {
+          "actorName": "Rachel McAdams",
+          "onScreenName": "Dr. Christine Palmer"
+        }
+      ],
+      "rating": 7.5,
+      "genre": "Fantasy",
+      "isOnOtt": true,
+      "Ott": "Hotstar"
+    },
+    {
+      "id": 506,
+      "movieTitle": "Whiplash",
+      "yearOfRelease": 2014,
+      "director": "Damien Chazelle",
+      "cast": [
+        {
+          "actorName": "Miles Teller",
+          "onScreenName": "Andrew"
+        },
+        {
+          "actorName": "J.K. Simmons",
+          "onScreenName": "Fletcher"
+        },
+        {
+          "actorName": "Melissa Benoist",
+          "onScreenName": "Nicole"
+        }
+      ],
+      "rating": 8.5,
+      "genre": "Drama",
+      "isOnOtt": true,
+      "Ott": "Prime Video"
+    },
+    {
+      "id": 507,
+      "movieTitle": "The Wolf of Wall Street",
+      "yearOfRelease": 2013,
+      "director": "Martin Scorsese",
+      "cast": [
+        {
+          "actorName": "Leonardo DiCaprio",
+          "onScreenName": "Jordan Belfort"
+        },
+        {
+          "actorName": "Jonah Hill",
+          "onScreenName": "Donnie Azoff"
+        },
+        {
+          "actorName": "Margot Robbie",
+          "onScreenName": "Naomi Lapaglia"
+        }
+      ],
+      "rating": 8.2,
+      "genre": "Biography",
+      "isOnOtt": true,
+      "Ott": "Prime Video"
+    },
+    {
+      "id": 508,
+      "movieTitle": "The Wolf of Wall Street",
+      "yearOfRelease": 2013,
+      "director": "Martin Scorsese",
+      "cast": [
+        {
+          "actorName": "Leonardo DiCaprio",
+          "onScreenName": "Jordan Belfort"
+        },
+        {
+          "actorName": "Jonah Hill",
+          "onScreenName": "Donnie Azoff"
+        },
+        {
+          "actorName": "Margot Robbie",
+          "onScreenName": "Naomi Lapaglia"
+        }
+      ],
+      "rating": 8.2,
+      "genre": "Biography",
+      "isOnOtt": true,
+      "Ott": "Prime Video"
+    },
+    {
+      "id": 509,
+      "movieTitle": "The Lost City",
+      "yearOfRelease": 2022,
+      "director": "Aaron Nee",
+      "cast": [
+        {
+          "actorName": "Sandra Bullock",
+          "onScreenName": "Loretta Sage, Angela"
+        },
+        {
+          "actorName": "Channing Tatum",
+          "onScreenName": "Alan, Dash"
+        },
+        {
+          "actorName": "Daniel Radcliffe",
+          "onScreenName": "Abigail Fairfax"
+        }
+      ],
+      "rating": 6.2,
+      "genre": "Comedy",
+      "isOnOtt": true,
+      "Ott": "Prime Video"
+    },
+    {
+      "id": 510,
+      "movieTitle": "365 Days",
+      "yearOfRelease": 2020,
+      "director": "Barbara Bialowas",
+      "cast": [
+        {
+          "actorName": "Anna-Maria Sieklucka",
+          "onScreenName": "Laura Biel"
+        },
+        {
+          "actorName": "Michele Morrone",
+          "onScreenName": "Massimo Torricelli"
+        }
+      ],
+      "rating": 3.3,
+      "genre": "Romance",
+      "isOnOtt": true,
+      "Ott": "Netflix"
+    },
+    {
+      "id": 511,
+      "movieTitle": "Titanic",
+      "yearOfRelease": 1997,
+      "director": "James Cameron",
+      "cast": [
+        {
+          "actorName": "Leonardo DiCaprio",
+          "onScreenName": "Jack Dawson"
+        },
+        {
+          "actorName": "Kate Winslet",
+          "onScreenName": "Rose Dewitt Bukater"
+        }
+      ],
+      "rating": 7.9,
+      "genre": "Romance",
+      "isOnOtt": true,
+      "Ott": "Hotstar"
+    },
+    {
+      "id": 512,
+      "movieTitle": "Ghostbusters: Afterlife",
+      "yearOfRelease": 2021,
+      "director": "Jason Reitman",
+      "cast": [
+        {
+          "actorName": "Carrie Coon",
+          "onScreenName": "Callie"
+        },
+        {
+          "actorName": "Paul Rudd",
+          "onScreenName": "Grooberson"
+        }
+      ],
+      "rating": 7.1,
+      "genre": "Adventure",
+      "isOnOtt": true,
+      "Ott": "Netflix"
+    }
+  ]
 }

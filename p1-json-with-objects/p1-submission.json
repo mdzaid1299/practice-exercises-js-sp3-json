@@ -1,5 +1,103 @@
 {
+
     "flights": [
-        
+        {
+        "id": 1,
+        "from":"chicago",
+        "to": "New York",
+        "departure-date":"22-Jun-2022",
+        "flight-options":{
+            "flight no":"DL551",
+            "airlines":"Delta",
+            "departure-time":"06:00:00",
+            "arrival-time":"09:16:00",
+            "stop overs":"",
+            "isDirect":true,
+            "departure-from":"ORD",
+            "arrival-at":"LGA"
+        }
+    },
+    {
+        "id": 2,
+        "from":"chicago",
+        "to": "New York",
+        "departure-date":"22-Jun-2022",
+        "flight-options":{
+            "flight no":"UA2606",
+            "airlines":"United Airlines",
+            "departure-time":"19:45:00",
+            "arrival-time":"23:10:00",
+            "stop overs":"",
+            "isDirect":true,
+            "departure-from":"ORD",
+            "arrival-at":"LGA"
+        }
+    },
+    {
+        "id": 3,
+        "from":"chicago",
+        "to": "New York",
+        "departure-date":"22-Jun-2022",
+        "flight-options":{
+            "flight no":"UA1253",
+            "airlines":"United Airlines",
+            "departure-time":"12:45:00",
+            "arrival-time":"18:09:00",
+            "stop overs":"1",
+            "isDirect":false,
+            "departure-from":"ORD",
+            "arrival-at":"LGA"
+        }
+    },
+    {
+        "id": 4,
+        "from":"chicago",
+        "to": "New York",
+        "departure-date":"22-Jun-2022",
+        "flight-options":{
+            "flight no":"AA2371",
+            "airlines":"American Airlines",
+            "departure-time":"10:30:00",
+            "arrival-time":"13:59:00",
+            "stop overs":"",
+            "isDirect":true,
+            "departure-from":"ORD",
+            "arrival-at":"JFK"
+        }
+    },
+    {
+        "id": 5,
+        "from":"chicago",
+        "to": "New York",
+        "departure-date":"22-Jun-2022",
+        "flight-options":{
+            "flight no":"DL556",
+            "airlines":"Delta Airlines",
+            "departure-time":"08:30:00",
+            "arrival-time":"11:48:00",
+            "stop overs":"",
+            "isDirect":true,
+            "departure-from":"ORD",
+            "arrival-at":"LGA"
+        }
+    },
+    {
+        "id": 6,
+        "from":"chicago",
+        "to": "New York",
+        "departure-date":"22-Jun-2022",
+        "flight-options":{
+            "flight no":"AA2992",
+            "airlines":"American Airlines",
+            "departure-time":"13:48:00",
+            "arrival-time":"16:48:00",
+            "stop overs":"",
+            "isDirect":true,
+            "departure-from":"ORD",
+            "arrival-at":"EWR"
+        }
+    }
+       
+
     ]
 }

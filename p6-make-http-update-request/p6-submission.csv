@@ -1,10 +1,102 @@
 "HTTP Request		",To update movie for id 514,To update movie for id 500
-"URL		",,
-"METHOD	",,
-"Request Body 		",,
+"URL		",http://localhost:3000/movies,http://localhost:3000/movies
+"METHOD	",PUT,PUT
+"Request Body 		","{
+    ""id"": 514,
+    ""movieTitle"": ""Bahubali"",
+    ""yearOfRelease"": 2020,
+    ""director"": ""Kenneth Branagh"",
+    ""cast"": [
+        {
+            ""actorName"": ""Tom Bateman"",
+            ""onScreenName"": ""Bouc""
+        },
+        {
+            ""actorName"": ""Annette Bening"",
+            ""onScreenName"": ""Euphemia Bouc""
+        },
+        {
+            ""actorName"": ""Kenneth Branagh"",
+            ""onScreenName"": ""Hercule Poirot""
+        }
+    ],
+    ""rating"": 6.3,
+    ""genre"": ""Mystery"",
+    ""isOnOtt"": false,
+    ""Ott"": null
+}","{
+    ""id"": 500,
+    ""movieTitle"": ""Jab we met"",
+    ""yearOfRelease"": 2020,
+    ""director"": ""Kenneth Branagh"",
+    ""cast"": [
+        {
+            ""actorName"": ""Tom Bateman"",
+            ""onScreenName"": ""Bouc""
+        },
+        {
+            ""actorName"": ""Annette Bening"",
+            ""onScreenName"": ""Euphemia Bouc""
+        },
+        {
+            ""actorName"": ""Kenneth Branagh"",
+            ""onScreenName"": ""Hercule Poirot""
+        }
+    ],
+    ""rating"": 6.3,
+    ""genre"": ""Mystery"",
+    ""isOnOtt"": false,
+    ""Ott"": null
+}"
 "Content Type	",,
-Body ,,
-"HTTP Response		",,
-"Status Code		",,
-"Status Message	",,
-Body,,
+Body ,"{
+    ""id"": 514,
+    ""movieTitle"": ""Bahubali"",
+    ""yearOfRelease"": 2020,
+    ""director"": ""Kenneth Branagh"",
+    ""cast"": [
+        {
+            ""actorName"": ""Tom Bateman"",
+            ""onScreenName"": ""Bouc""
+        },
+        {
+            ""actorName"": ""Annette Bening"",
+            ""onScreenName"": ""Euphemia Bouc""
+        },
+        {
+            ""actorName"": ""Kenneth Branagh"",
+            ""onScreenName"": ""Hercule Poirot""
+        }
+    ],
+    ""rating"": 6.3,
+    ""genre"": ""Mystery"",
+    ""isOnOtt"": false,
+    ""Ott"": null
+}",
+"HTTP Response		",PUT http://localhost:3000/movies/514,PUT http://localhost:3000/movies/500
+"Status Code		",200 ok,404 NOT FOUND
+"Status Message	","Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible.
+Body,"{
+    ""id"": 514,
+    ""movieTitle"": ""Bahubali"",
+    ""yearOfRelease"": 2020,
+    ""director"": ""Kenneth Branagh"",
+    ""cast"": [
+        {
+            ""actorName"": ""Tom Bateman"",
+            ""onScreenName"": ""Bouc""
+        },
+        {
+            ""actorName"": ""Annette Bening"",
+            ""onScreenName"": ""Euphemia Bouc""
+        },
+        {
+            ""actorName"": ""Kenneth Branagh"",
+            ""onScreenName"": ""Hercule Poirot""
+        }
+    ],
+    ""rating"": 6.3,
+    ""genre"": ""Mystery"",
+    ""isOnOtt"": false,
+    ""Ott"": null
+}",{}
